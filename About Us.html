@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music Shop- guitars, violins, drums and more</title>
+        <!--Styling Starts-->
+        <style>
+            * {
+                font-family:  Century Gothic;
+                font-weight: 300;
+            }
+            body, ul, li {
+                margin: 0;
+                padding: 0;
+            }
+            p, li, h1, h2, h3, h4 {
+                color: darkslategrey;
+            }
+            body {
+                background-color: azure;
+            }
+            .wrapper 
+            {
+                width: 96%;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 2%;
+            }
+            header {
+                background-color: papayawhip;
+                padding: 10px 0;
+            }
+            #usp {
+                margin-top: 20px
+            }
+            #usp li {
+                float: left;
+                width: 23%;
+                padding: 1%;
+                text-align: center;
+                list-style-type: none;
+            }
+            #usp {
+                padding-top: 30px;
+                margin-top: 30px;
+                border-top: 2px solid lightgrey;
+            }
+            #usp li img {
+                height: 80px;
+                padding: 20px;
+                background-color: coral;
+                border-radius: 50%;
+            }
+            #usp li h2 {
+                font-size: 16px;
+                font-weight: 400;
+            }
+            #usp:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+            #about-us {
+                text-align: center;
+            }
+            .button {
+                border: none;
+                color:cornflowerblue;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+            .button1 {
+                background-color:cornflowerblue;
+                color:whitesmoke;
+            }
+            .button1:hover {
+                background-color:aquamarine;
+                color: white;
+            }
+            header nav {
+                float: right;
+                padding: 0 20px;
+            }
+            header:after {
+                content:"";
+                clear: both;
+                display: block;
+            }
+            header nav li {
+                list-style-type: none;
+                float: left;
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+            header nav li a {
+                text-decoration: none;
+                color: darkslategrey;
+                font-size: 15px;
+                text-transform: uppercase;
+            
+            <!--Styling Ends-->
+        </style>
+        
+        <header>
+            <div class="wrapper">
+                <div class="logo"></div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Website.html"><b>Home</b></a></li>
+                    <li><a href="About Us.html"><b>About us</b></a></li>
+                    <li><a href="Products.html">Our <b>Products</b></a></li>
+                    <li><a href="Contact Us.html"><b>Contact us</b></a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <body>
+        <!--USP Section Starts-->
+        <div class="wrapper">
+            <section id="usp">
+            <h2 id="about-us">About Us</h2>
+                <ul>
+                    <li>
+                        <img src="Wide%20Range%20of%20Products.png">
+                        <h2>Wide Range of Products</h2>
+                    </li>
+                    <li>
+                        <img src="Multiple%20Stores.png">
+                        <h2>Multiple Stores</h2>
+                    </li>
+                    <li>
+                        <img src="Happy%20Customers.png">
+                        <h2>Happy Customers</h2>
+                    </li>
+                    <li>
+                        <img src="Satisfaction%20Guaranteed.png">
+                        <h2>Satisfaction Guaranteed</h2>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <!--USP Section Ends-->
+        
+</body>
+</html>
